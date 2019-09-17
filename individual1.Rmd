@@ -1,0 +1,31 @@
+---
+title: "individual1"
+author: "Luping"
+date: "9/17/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+1.How are ratings distributed? Don’t forget to mention outliers, if there are any.
+```{r}
+##str(choco)
+hist(choco$Rating)
+##plot(choco$Rating)
+```
+It's a bell-shaped distrubution. Most of ratings fall within the range of 2.5 and 3.5. 
+
+2.Do ratings depend on the cacao percentage of a chocolate bar?
+```{r}
+hist(choco$Cocoa.Pct)
+```
+According to the graphs generatded above, I think "ratings" is related to "cacao percentage of a chocolate bar".
+
+
+3.What class is the variable representing company locations? How is this different from a ‘character’ variable? (You do not need to produce a graphic for this question.)
+```{r}
+class(choco$Company.Location)
+```
+It's a factor. Character is letters and LETTERS which provide the 26 lower (and upper)
+case letters.  Factor is A type vector contains a set of numeric codes with character-valued levels.
