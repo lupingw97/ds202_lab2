@@ -30,8 +30,7 @@ According to the histogram, it's a bell-shaped distrubution. Most of ratings fal
 plot(choco$Cocoa.Pct ~ choco$Rating,ylim=c(1,100),col="blue",pch=18, cex=1.5,xlab="Rating scale", ylab= "Cocoa Percentage", main= "Rating VS cacao percentage") 
 ```
 
-According to the graphs generatded above, I think "ratings" is related to "cacao percentage of a chocolate bar".Higher Cocoa Percentage, the more the number of ratings.
-
+According to the graphs generatded above,  I don't think "ratings" depends on "cacao percentage of a chocolate bar". Most of ratings fall into the range of Cocoa Percentage from 50% to 80%. 
 
 3.What class is the variable representing company locations? How is this different from a ‘character’ variable? (You do not need to produce a graphic for this question.)
 ```{r}
