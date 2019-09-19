@@ -70,8 +70,8 @@ The legends are too big for the plots.
 Rating_Year<-table(choco$Rating,choco$Review.Date)
 SumRating<-colSums(Rating_Year) #vector
 barplot(SumRating)               
-
 ```
+From this graph, we see that the number of ratings increased overall until 2015, then decreased in 2016 and 2017.\
 
 4 . How do ratings compare across different company locations? Focus on the three locations with the most ratings. Hint: the function sort() might come in handy here.
 ```{r}
@@ -87,7 +87,6 @@ par(mfrow=c(2,2))
 plot(ra,con$X1,pch=18,col='blue',xlab="rating",ylab='USA')
 plot(ra,con$X2,pch=18,col='green',xlab="rating",ylab='France')
 plot(ra,con$X3,pch=18,col='red',xlab="rating",ylab='Canada')
-
 ```
 
 5 . Brainstorm and write down an interesting question that can be answer from the dataset. The question should not duplicate the questions above.\
