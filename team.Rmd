@@ -90,7 +90,8 @@ plot(ra,con$X3,pch=18,col='red',xlab="rating",ylab='Canada')
 
 ```
 
-5 . Brainstorm and write down an interesting question that can be answer from the dataset. The question should not duplicate the questions above.
+5 . Brainstorm and write down an interesting question that can be answer from the dataset. The question should not duplicate the questions above.\
+***Ideas:*** We could look at what countries use a higher percent of cacoa, which countries use what type of bean, or how the origin of the bean affects the rating
 
 
 6 . Bonus points (optional): Answer the question from the dataset.
