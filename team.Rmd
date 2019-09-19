@@ -71,7 +71,8 @@ Rating_Year<-table(choco$Rating,choco$Review.Date)
 SumRating<-colSums(Rating_Year) #vector
 barplot(SumRating)               
 ```
-From this graph, we see that the number of ratings increased overall until 2015, then decreased in 2016 and 2017.\
+\
+From this graph, we see that the number of ratings increased overall, reached a maximum in 2015, then decreased in 2016 and 2017.\
 
 4 . How do ratings compare across different company locations? Focus on the three locations with the most ratings. Hint: the function sort() might come in handy here.
 ```{r}
