@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+**Individual Work:** Luping Wang
 ```{r}
 choco <- read.csv("https://raw.githubusercontent.com/lbchu/ds202_labs/master/choco.csv")
 head(choco)

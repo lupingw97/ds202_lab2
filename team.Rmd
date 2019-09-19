@@ -1,6 +1,6 @@
 ---
 title: "team"
-author: "Luping"
+author: "Luping Wang" 
 date: "9/17/2019"
 output: html_document
 ---
@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+**Team member: **Luping Wang, Brenna Walters 
 
 1 . Run the following code line by line to figure out what it’s doing. Then next to each line of code, write a comment explaining its purpose and function, including the use of any specific arguments. Comments in R are proceeded by a #, so that R knows not to run anything after the hashtag.
 
