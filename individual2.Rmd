@@ -1,0 +1,29 @@
+---
+title: "Lab 2"
+author: "Brenna Walters"
+date: "9/12/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+choco = read.csv("https://raw.githubusercontent.com/lbchu/ds202_labs/master/choco.csv")
+head(choco)
+```
+
+#Questions
+
+1. Distribution of Ratings
+```{r}
+hist(choco$Rating, main="Distribution of Rating",xlab="Rating")
+```
+This distribution is unimodal, slightly left skewed, and has one upper outlier.\
+
+2. Does rating depend on cacao percentage?
+```{r}
+
+```
+
