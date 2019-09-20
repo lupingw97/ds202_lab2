@@ -22,8 +22,17 @@ hist(choco$Rating, main="Distribution of Rating",xlab="Rating")
 ```
 This distribution is unimodal, slightly left skewed, and has one upper outlier.\
 
-2. Does rating depend on cacao percentage?
+2. Does rating depend on cocao percentage?
 ```{r}
-
+library(ggplot2)
+qplot(Cocoa.Pct, Rating, data=choco, main = "Cocoa % vs Rating")
 ```
+\
+From this plot, it looks like a cocao percentage in the middle to upper range (about 55% to ~ 90%) has the largest number of ratings. The 0% to %40 range has no ratings, so we see that the number of ratings does depend of cocao percentage.\
+
+3. What class is the variable representing company locations? How is this different from a 'character' variable?\
+```{r}
+class(choco$Company.Location)
+```
+The difference is that a character can be any string, while a factor is actually a value stored with a label. For that reason, they should not be treated the same when they're being used.\
 
